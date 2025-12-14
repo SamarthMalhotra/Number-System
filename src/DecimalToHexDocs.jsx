@@ -52,13 +52,16 @@ export default function DecimalToHexDocs() {
       </div>
 
       {/* Example */}
-      <div className="card plg-3">
+      <div className="card p-lg-3 p-1 fs-6">
         <h4>Solved Example</h4>
         <h5>
           Convert <b>254</b> to Hexadecimal:
         </h5>
 
-        <table className="table table-bordered mt-3">
+        <table
+          className="table table-bordered mt-3"
+          style={{ fontSize: "0.8rem" }}
+        >
           <thead>
             <tr>
               <th>Step</th>

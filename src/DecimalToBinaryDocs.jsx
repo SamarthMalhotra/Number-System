@@ -1,6 +1,6 @@
 export default function DecimalToBinaryDocs() {
   return (
-    <div className="container m-4 border-bottom border-2 border-dark pb-5">
+    <div className="container m-4 border-bottom border-2 border-dark pb-5 ">
       <h2 className="text-center mb-4">Decimal to Binary Conversion</h2>
 
       {/* Decimal Number */}
@@ -50,13 +50,16 @@ export default function DecimalToBinaryDocs() {
       </div>
 
       {/* Example */}
-      <div className="card  p-lg-3">
+      <div className="card  p-lg-3 p-3" width="100">
         <h4>Solved Example</h4>
         <h5>
           Convert <b>13</b> to Binary:
         </h5>
 
-        <table className="table table-bordered mt-3">
+        <table
+          className="table table-bordered mt-3 "
+          style={{ fontSize: "0.8rem" }}
+        >
           <thead>
             <tr>
               <th>Step</th>
