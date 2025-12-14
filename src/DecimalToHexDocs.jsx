@@ -52,7 +52,7 @@ export default function DecimalToHexDocs() {
       </div>
 
       {/* Example */}
-      <div className="card p-3">
+      <div className="card plg-3">
         <h4>Solved Example</h4>
         <h5>
           Convert <b>254</b> to Hexadecimal:

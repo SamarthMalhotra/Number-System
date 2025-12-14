@@ -50,7 +50,7 @@ export default function DecimalToBinaryDocs() {
       </div>
 
       {/* Example */}
-      <div className="card p-3">
+      <div className="card  p-lg-3">
         <h4>Solved Example</h4>
         <h5>
           Convert <b>13</b> to Binary:
