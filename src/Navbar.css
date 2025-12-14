@@ -1,0 +1,12 @@
+.li-tag {
+  color: white !important;
+  font-size: 1rem !important;
+  transition: color 1s ease-in 0.5 !important;
+  margin-left: 1.5rem !important;
+  font-weight: 400;
+}
+.li-tag:hover {
+  color: rgba(52, 88, 247, 0.884) !important;
+  font-size: 1.25rem !important;
+  font-weight: 600;
+}

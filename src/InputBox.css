@@ -1,0 +1,71 @@
+.formBox {
+  border: 2px solid white !important;
+  padding: 1.5rem;
+  border-radius: 2rem;
+  background-color: white;
+  width: 40vw;
+  height: 60vh;
+  box-shadow: 2px 3px 8px black;
+}
+.formBox:hover {
+  box-shadow: 6px 6px 8px white;
+}
+.question,
+.answer {
+  width: 90%;
+  padding: 1rem;
+  border: 1px dashed gray;
+  border-radius: 2rem;
+  align-items: center;
+  height: 50px;
+  box-shadow: 2px 2px 8px black;
+}
+.inputbtn {
+  width: 70%;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.1rem;
+  align-self: center;
+  transition-duration: 1s !important;
+  border-radius: 1.5rem !important;
+}
+.inputbtn:hover {
+  background-color: cyan;
+  transform: scale(0.95);
+  border-radius: 3rem;
+}
+.inputbtn:focus {
+  color: white;
+  font-weight: 600;
+}
+@media (max-width: 576px) {
+  .formBox {
+    border: 2px solid white !important;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: white;
+    width: 90vw;
+    height: 50vh;
+    box-shadow: 2px 3px 8px black;
+  }
+  .question,
+  .answer {
+    width: 95%;
+    padding: 1rem;
+    border: 1px dashed gray;
+    border-radius: 2rem;
+    align-items: center;
+    height: 50px;
+    box-shadow: 2px 2px 8px black;
+  }
+  .inputbtn {
+    width: 80%;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    align-self: center;
+    transition-duration: 1s !important;
+    border-radius: 0.5rem !important;
+    margin: 1rem;
+  }
+}
