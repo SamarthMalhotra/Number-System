@@ -39,8 +39,21 @@ export default function InputBox({ ans }) {
           type="text"
           id="que"
           className="form-control question align-self-center"
-          onChange={(e) => setQuery(e.target.value)}
-          value={query}
+          onChange={(e) => {
+            setResult("");
+            let value = e.target.value;
+            const regex = /^[0-9]*$/;
+            if (!regex.test(value)) {
+              e.target.value = ""; //Clear DOM
+              setTimeout(() => {
+                alert("Only Decimal number");
+              }, 0);
+              setQuery("");
+              return;
+            } else {
+              setQuery(value);
+            }
+          }}
         />
       </div>
       <button

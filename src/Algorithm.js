@@ -57,7 +57,7 @@ function DtoH(value) {
         hexade.unshift(i);
     }
     value = Math.floor(value / 16);
-    return hexade.join("");
   }
+  return hexade.join("");
 }
 export { DtoB, DtoO, DtoH };

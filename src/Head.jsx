@@ -39,7 +39,7 @@ export default function Head() {
       >
         <img
           src="https://res.cloudinary.com/duryxhwcp/image/upload/v1765533646/Decimal_to_Binary_hksndd.png"
-          class="card-img-top"
+          className="card-img-top"
           alt="Decimal to Binary"
         />
         <div className="card-body">
