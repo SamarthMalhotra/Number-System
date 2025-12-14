@@ -48,7 +48,7 @@ export default function DecimalToOctalDocs() {
       </div>
 
       {/* Example */}
-      <div className="card p-lg-3 p-1 fs-6">
+      <div className="card  p-3">
         <h4>Solved Example</h4>
         <h5>
           Convert <b>65</b> to Octal:
